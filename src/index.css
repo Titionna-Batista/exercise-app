@@ -1,5 +1,5 @@
 html{
-  background: rgb(161, 159, 187);
+  background: #EFEEEE;
 }
 
 body {
@@ -12,7 +12,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(190, 253, 253);
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.20);
+  background-color: #EFEEEE;
+  box-shadow: -6px -6px 26px 0 rgba(255,255,255,0.83), 6px 6px 16px 0 rgba(217,210, 200, 0.51);
+
 }
 
 code {

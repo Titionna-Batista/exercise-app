@@ -43,6 +43,7 @@ export default class Main extends React.Component {
             case MAIN:
                 screen = (
                     <>
+                    <div className="mainFrame">
                         <h2> Choose Your Exercise Style </h2>
                         <h4>Repetition</h4>
                         <ul>
@@ -68,6 +69,7 @@ export default class Main extends React.Component {
                         </ul>
 
                         <button onClick={() => this.props.welcome(false)}>Return to Home</button>
+                        </div>
                     </>
                 )
                 break
