@@ -37,18 +37,18 @@ export default class Stopwatch extends Component {
 
     render() {
         let commence = (this.state.time === 0) ?
-            <button onClick={this.beginTime}> Start Exercise </button> : null
+            <button style={{ fontSize: "20px", color: "black", border:"2px solid gray", borderRadius: "5px", backgroundColor: "#EFEEEE", width: "310px", marginLeft:"-105px"}} onClick={this.beginTime}> Start Exercise </button> : null
 
         let end = (this.state.time === 0 || !this.state.running) ? null :
-            <button onClick={this.stopTime}> Stop Exercise </button>
+            <button style={{ fontSize: "20px", color: "black", border:"2px solid gray", borderRadius: "5px", backgroundColor: "#EFEEEE", width: "310px", marginLeft:"-105px"}} onClick={this.stopTime}> Stop Exercise </button>
 
         let reset = (this.state.time === 0 || this.state.running) ? null :
-            <button onClick={this.resetTime}> Reset Timer </button>
+            <button style={{ fontSize: "20px", color: "black", border:"2px solid gray", borderRadius: "5px", backgroundColor: "#EFEEEE", width: "310px", marginLeft:"-105px"}} onClick={this.resetTime}> Reset Timer </button>
 
         return (
             <>
                 <h4 style={{textAlign: "center", fontSize: "40px", 
-           backgroundColor: "gray", borderRadius: "10px", color: "white", border: "3px solid #ffffff", maxWidth: "200px", margin: "auto"}}> Timer: {this.state.time}</h4>
+           backgroundColor: "gray", borderRadius: "10px", color: "white", border: "3px solid #ffffff", width: "200px", height: "90px", margin: "auto"}}> Timer: {this.state.time}</h4>
            <br></br>
                <div style={{marginLeft: "326px"}}>
                 {commence}

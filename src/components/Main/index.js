@@ -88,6 +88,7 @@ export default class Main extends React.Component {
 
                         <button style={{ fontSize: "23px", marginLeft: "300px"}} onClick={() => this.props.welcome(false)}>Return to Home</button>
                         </div>
+                        <br></br>
                     </>
                 )
                 //Button to add thing to up above!!//
@@ -97,7 +98,9 @@ export default class Main extends React.Component {
                     <>
                         <RepetitionExercise {...this.state.selectedItem} updateValue={(value) => this.updateValue(value)}></RepetitionExercise>
                         <br></br>
-                        <button style={{ marginLeft: "350px", fontSize: "20px"}}onClick={() => this.setState({ currentScreen: MAIN })}> Back </button>
+                        <button style={{ marginLeft: "350px", fontSize: "20px"}} onClick={() => this.setState({ currentScreen: MAIN })}> Back </button>
+                        <br></br>
+                        <br></br>
                     </>
                 break;
 
@@ -107,7 +110,8 @@ export default class Main extends React.Component {
                     <>
                         <DurationExercise {...this.state.selectedItem}></DurationExercise>
                         <br></br>
-                        <button style={{ fontSize: "20px", color: "black", border:"2px solid gray", borderRadius: "5px", backgroundColor: "#EFEEEE", width: "310px", marginLeft:"220px"}} onClick={() => this.setState({ currentScreen: MAIN })}> Back </button>
+                        <button style={{ marginLeft: "350px", fontSize: "20px"}} onClick={() => this.setState({ currentScreen: MAIN })}> Back </button>
+                        <br></br>
                     </>
                 break;
 
@@ -117,6 +121,7 @@ export default class Main extends React.Component {
                 <StretchingExercise {...this.state.selectedItem}></StretchingExercise>
                 <br></br>
                 <button style={{ fontSize:"20px", marginLeft: "350px"}} onClick={() => this.setState({ currentScreen: MAIN })}> Back </button>
+                <br></br>
                 </>
         }
         return screen
