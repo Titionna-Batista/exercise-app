@@ -3,6 +3,7 @@ html{
 }
 
 body {
+  margin-top: 50px;
   margin: auto;
   max-width: 750px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -35,7 +36,7 @@ ul{
 
 /* Header Component THings Maybe?*/
 h1, h2, h3{
-  margin: auto;
+  margin-left: 10px;
   padding: 5px;
   text-align: center;
 }
@@ -43,7 +44,7 @@ h1, h2, h3{
 h4 {
   padding: 5px;
   text-align: center;
-  margin-left: 35px;
+  margin-left: 38px;
 }
 
 button{

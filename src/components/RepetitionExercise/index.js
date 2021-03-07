@@ -30,10 +30,15 @@ export default class RepetitionExercise extends React.Component {
 
         return (
             <>
-                <p>{this.props.name}</p>
-                <p>Number Completed: {this.state.value}</p>
-                <button onClick={() => this.plusOne()}> Add a Rep</button>
-                <button onClick={() => this.Reset()}> Reset</button>
+                <h3>{this.props.name}</h3>
+                <p style={{textAlign: "center", fontSize: "40px", 
+           backgroundColor: "gray", borderRadius: "10px", color: "white", border: "3px solid #ffffff", width: "290px", margin: "auto"}}>Number Completed: {this.state.value}</p>
+           <br></br>
+                <button style={{ marginLeft: "220px", fontSize: "20px", color: "black", border:"2px solid gray", borderRadius: "5px", backgroundColor: "#EFEEEE", width: "310px", margin: "15px;"}} onClick={() => this.plusOne()}> Add a Rep</button>
+                <br></br>
+                <br></br>
+                <button style={{ marginLeft: "220px", fontSize: "20px", color: "black", border:"2px solid gray", borderRadius: "5px", backgroundColor: "#EFEEEE", width: "310px", margin: "15px;"}} onClick={() => this.Reset()}> Reset</button>
+                <br></br>
             </>
         )
     }

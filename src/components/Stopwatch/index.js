@@ -47,10 +47,14 @@ export default class Stopwatch extends Component {
 
         return (
             <>
-                <h4> Timer: {this.state.time}</h4>
+                <h4 style={{textAlign: "center", fontSize: "40px", 
+           backgroundColor: "gray", borderRadius: "10px", color: "white", border: "3px solid #ffffff", maxWidth: "200px", margin: "auto"}}> Timer: {this.state.time}</h4>
+           <br></br>
+               <div style={{marginLeft: "326px"}}>
                 {commence}
                 {end}
                 {reset}
+                </div>
             </>
         );
     }

@@ -10,7 +10,8 @@ export default class DurationExercise extends React.Component {
         return (
             <>
 
-                <p>Exercise: {this.props.name}</p>
+                <h2>Exercise: {this.props.name}</h2>
+                <br></br>
                 <Stopwatch></Stopwatch>
             </>
         )
