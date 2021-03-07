@@ -2,6 +2,7 @@ import React from "react"
 import RepetitionExercise from "../RepetitionExercise"
 import DurationExercise from "../DurationExercise"
 
+
 const MAIN = "main"
 const REPETITION_EXERCISE = "repetition_exercise"
 const DURATION_EXERCISE = "duration_exercise"
@@ -43,7 +44,7 @@ export default class Main extends React.Component {
             case MAIN:
                 screen = (
                     <>
-                    <div className="mainFrame">
+                    <div class="inside">
                         <h2> Choose Your Exercise Style </h2>
                         <h4>Repetition</h4>
                         <ul>
@@ -72,6 +73,7 @@ export default class Main extends React.Component {
                         </div>
                     </>
                 )
+                //Button to add thing to up above!!//
                 break
             case REPETITION_EXERCISE:
                 screen =
