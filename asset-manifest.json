@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Titionna-Batista/exercise-app/static/css/main.952a7965.chunk.css",
+    "main.js": "/Titionna-Batista/exercise-app/static/js/main.4c5efeea.chunk.js",
+    "main.js.map": "/Titionna-Batista/exercise-app/static/js/main.4c5efeea.chunk.js.map",
+    "runtime-main.js": "/Titionna-Batista/exercise-app/static/js/runtime-main.0fddacb9.js",
+    "runtime-main.js.map": "/Titionna-Batista/exercise-app/static/js/runtime-main.0fddacb9.js.map",
+    "static/js/2.900cb47c.chunk.js": "/Titionna-Batista/exercise-app/static/js/2.900cb47c.chunk.js",
+    "static/js/2.900cb47c.chunk.js.map": "/Titionna-Batista/exercise-app/static/js/2.900cb47c.chunk.js.map",
+    "static/js/3.004c9829.chunk.js": "/Titionna-Batista/exercise-app/static/js/3.004c9829.chunk.js",
+    "static/js/3.004c9829.chunk.js.map": "/Titionna-Batista/exercise-app/static/js/3.004c9829.chunk.js.map",
+    "index.html": "/Titionna-Batista/exercise-app/index.html",
+    "static/css/main.952a7965.chunk.css.map": "/Titionna-Batista/exercise-app/static/css/main.952a7965.chunk.css.map",
+    "static/js/2.900cb47c.chunk.js.LICENSE.txt": "/Titionna-Batista/exercise-app/static/js/2.900cb47c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0fddacb9.js",
+    "static/js/2.900cb47c.chunk.js",
+    "static/css/main.952a7965.chunk.css",
+    "static/js/main.4c5efeea.chunk.js"
+  ]
+}
