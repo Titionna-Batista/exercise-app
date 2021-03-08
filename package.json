@@ -2,7 +2,7 @@
   "name": "exercise-app-1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Titionna-Batista/exercise-app",
+  "homepage": "http://Titionna-Batista.github.io/exercise-app",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^5.11.4",
